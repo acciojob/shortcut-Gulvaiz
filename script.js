@@ -1,15 +1,10 @@
 function shortcut(s1, s2) {
   // your code here
-	s1 = s1.toUpperCase()
-  s2 = s2.toLowerCase()
-     if(s1 == "" || s2 == ""){
-          return ("")
-     }
-     
-     else
-  
-         return (s1[0]+s2[0])
-     }
+	  if (s1 === "" || s2 === "") {
+    return "";
+  }
+  // Return the initial letters of both strings
+  return s1[0] + s2[0];\
 	
 }
 
