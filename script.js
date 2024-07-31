@@ -1,16 +1,16 @@
 function shortcut(s1, s2) {
   // your code here
-	 if(s1 == "" || s2 == ""){
+	s1 = s1.toUpperCase()
+  s2 = s2.toLowerCase()
+     if(s1 == "" || s2 == ""){
           return ("")
      }
      
-     else{
-         while(i=0){
-            s3 = s1[i]
-            s4 = s2[i]
-         }
-         return (s3+s4)
+     else
+  
+         return (s1[0]+s2[0])
      }
+	
 }
 
 // Do not change the code below.
